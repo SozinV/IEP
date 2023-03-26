@@ -1,0 +1,8 @@
+### Hello World without server, no logging ###
+
+
+
+client.login("TOKEN")
+client.webserver(status=False)
+client.process("Hello, World!")
+
