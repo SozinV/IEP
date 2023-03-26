@@ -1,0 +1,15 @@
+
+name = "Develeopment Package"
+author = "Vista Development"
+version = "1.01"
+
+
+
+
+package.directory_create("data")
+package.unzip("https://filesamples.com/samples/document/txt/sample1.txt", "data", "sample.txt")
+
+
+
+console.log("Develeopment Package is done.")
+iep.execute()
