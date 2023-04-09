@@ -11,6 +11,11 @@ The IEP format is also highly customizable, allowing users to include custom met
 
 Overall, the IEP file extension is an excellent choice for users who require a versatile and efficient package format for their file transfer and storage needs. Its small size, ease of use, and ability to isolate files make it an excellent option for anyone who needs to transfer multiple files quickly and securely.
 
+
+# Update 4/7/2023
+Note: It's just me working on this project, and I'm a novice coder especially with Python. But I also don't have alot of time to work on this so I hope within a few weeks the first release can be made for people to test it, but I thinking of also adding more extension. The only current ones IEP use is iep, but I'm thinking of doing a .package although EA games already uses that for their games so maybe something similar. Next update will be soon be look forward to a new package editor, and maybe a shell.
+
+
 # Examples
 ```
 name = "Develeopment Package"
