@@ -15,10 +15,10 @@ class PackageInstaller:
                 code = f.read()
             globals_dict = {}
             exec(code, globals_dict)
-            package_name = globals_dict.get('name', 'unknown package')
-            package_author = globals_dict.get('author', 'unknown author')
-            package_version = globals_dict.get('version', 'unknown version')
-            package_directory = globals_dict.get('directory', 'data')
+            package_name = globals_dict.get('name')
+            package_author = globals_dict.get('author')
+            package_version = globals_dict.get('version')
+            package_directory = globals_dict.get('directory')
             if not os.path.exists(package_directory):
                 os.makedirs(package_directory)
             package_url = globals_dict.get('url', '')
