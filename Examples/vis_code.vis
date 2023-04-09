@@ -1,0 +1,8 @@
+package_installtion.log("This Piece of code logs to the installtion log file.")
+
+package_installtion.alert(error=True, "This will show up as a error")
+
+extension("vis")
+# This says the extension is vis.
+
+void
